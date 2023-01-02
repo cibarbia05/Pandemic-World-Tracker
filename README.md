@@ -12,5 +12,7 @@
 ![PWT Pic 6](https://user-images.githubusercontent.com/84081765/210266448-c278faaf-b452-4c41-8343-6ddd87393bdb.png)
 
 ## Additional Features
-These include the ability to create accounts so that personal data is saved while using the app, the ability to **choose your favorite countries** so that it is easier to access the data for a country when the user needs it, and the **ability for the user to pay real money to be sent real time world data** – via email - regarding the countries of their choosing.
-**Video Showing App:** https://www.youtube.com/watch?v=nTxlHLhzHBM
+- These include the ability to create accounts so that personal data is saved while using the app, the ability to **choose your favorite countries** so that it is easier to access the data for a country when the user needs it, and the **ability for the user to pay real money to be sent real time world data** – via email - regarding the countries of their choosing.
+
+## App Demonstration Video: 
+- https://www.youtube.com/watch?v=nTxlHLhzHBM
