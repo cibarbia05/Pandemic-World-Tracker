@@ -2,7 +2,7 @@
 
 ## Purpose and Main Features
 - Pandemic World Tracker is a desktop app designed to **inform people of all communities around the world about the impact Covid-19.**
-- The application uses **real-time** data to provide users with information such as **cases, deaths, and recoveries for approximately 210 countries**. Additionally, it utilizes features such **interactive charts and maps** to provide the user with different ways of visualizing the effects of Covid-19 around the world. 
+- The application uses **real-time data** to provide users with information such as **cases, deaths, and recoveries for approximately 210 countries**. Additionally, it utilizes features such **interactive charts and maps** to provide the user with different ways of visualizing the effects of Covid-19 around the world. 
 - The app also gives the user the ability to see real-time **world news relating to Covid-19**, and provides them with the ability to filter those news in a variety of ways that will be for their benefit while using the app.
 - ![PWT Pic 1](https://user-images.githubusercontent.com/84081765/210266409-c7c23143-3fd7-4a74-810c-90acc77e5e7b.png)
 ![PWT Pic 2](https://user-images.githubusercontent.com/84081765/210266438-9cca9cbb-7e55-4be9-b271-fb1cc143f94c.png)
@@ -12,5 +12,5 @@
 ![PWT Pic 6](https://user-images.githubusercontent.com/84081765/210266448-c278faaf-b452-4c41-8343-6ddd87393bdb.png)
 
 ## Additional Features
-These include the ability to create accounts so that personal data is saved while using the app, the ability to choose your favorite countries so that it is easier to access the data for a country when the user needs it, and the ability for the user to pay real money to be sent real time world data – via email - regarding the countries of their choosing.
+These include the ability to create accounts so that personal data is saved while using the app, the ability to **choose your favorite countries** so that it is easier to access the data for a country when the user needs it, and the **ability for the user to pay real money to be sent real time world data** – via email - regarding the countries of their choosing.
 ## Video Showing App: https://www.youtube.com/watch?v=nTxlHLhzHBM
