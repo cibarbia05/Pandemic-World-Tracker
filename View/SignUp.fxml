@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="370.0" maxWidth="-Infinity" minHeight="370.0" minWidth="-Infinity" prefHeight="370.0" prefWidth="350.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SignUpController">
+    <children>
+        <Pane layoutX="31.0" layoutY="31.0" maxHeight="370.0" maxWidth="-Infinity" minHeight="302.0" minWidth="-Infinity" prefHeight="302.0" prefWidth="287.0">
+            <children>
+                <TextField fx:id="txtUsername" layoutX="7.0" layoutY="140.0" onMouseClicked="#emailTxtActions" prefHeight="34.0" prefWidth="275.0" promptText="Email" />
+                <PasswordField fx:id="txtPassword" layoutX="7.0" layoutY="185.0" onMouseClicked="#passwordTxtActions" prefHeight="34.0" prefWidth="275.0" promptText="Password" stylesheets="/View/LoginStylesheet.css" />
+                <Button fx:id="btnSignup" layoutX="7.0" layoutY="256.0" mnemonicParsing="false" onAction="#signUpButtonActions" prefHeight="34.0" prefWidth="275.0" stylesheets="/View/LoginStylesheet.css" text="Sign up" />
+                <Label fx:id="lblErrors" alignment="CENTER" layoutX="8.0" layoutY="95.0" prefHeight="23.0" prefWidth="275.0" textFill="#ff6354">
+                    <font>
+                        <Font name="Segoe UI" size="10.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="txtLastName" layoutX="7.0" layoutY="95.0" onMouseClicked="#nameTxtActions" prefHeight="34.0" prefWidth="275.0" promptText="Last Name" />
+                <TextField fx:id="txtFirstName" layoutX="7.0" layoutY="50.0" onMouseClicked="#nameTxtActions" prefHeight="34.0" prefWidth="275.0" promptText="First Name" />
+            <Label fx:id="curStateL" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="20.0" prefHeight="23.0" prefWidth="275.0" textAlignment="CENTER" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="-8.0" prefHeight="17.0" prefWidth="275.0" text="Sign Up">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Label>
+            </children>
+        </Pane>
+    </children>
+
+</AnchorPane>

@@ -1,0 +1,69 @@
+
+.button{
+    -fx-background-color: #313c4a;
+    -fx-text-fill: white;
+}
+.button:hover{
+    -fx-background-color: #29323e;
+    -fx-text-fill: white;
+}
+.root {
+    -fx-font-family: "Roboto";
+    -fx-font-smoothing-type: gray;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: #335564;
+}
+
+.list-view{
+    -fx-background-color: #1b222d;
+}
+.list-cell {
+     -fx-text-fill: #1f252f;
+}
+.list-cell:odd {
+    -fx-background-color: #262d37;
+    -fx-text-fill: white;
+}
+.list-cell:even {
+    -fx-background-color: #292d3c;
+    -fx-text-fill: white
+}
+
+
+.title-label {
+    -fx-font-size: 16.0px;
+    -fx-font-weight: BOLD;
+    -fx-text-fill: rgba(0.0, 0.0, 0.0, 0.87);
+    -fx-text-fill: white;
+}
+
+.published-at-label {
+    -fx-font-size: 14.0px;
+    -fx-text-fill: white;
+
+}
+
+.source-label {
+    -fx-font-size: 14.0px;
+    -fx-text-fill: white;
+}
+
+.fv-title-label {
+    -fx-font-size: 18.0px;
+    -fx-font-weight: BOLD;
+    -fx-text-fill: rgba(0.0, 0.0, 0.0, 0.87);
+    -fx-text-fill: white;
+}
+
+.description {
+    -fx-font-size: 16.0px;
+    -fx-text-fill: white;
+    -fx-fill: white;
+}
+.url{
+    -fx-text-fill: white;
+    -fx-fill: white;
+
+}

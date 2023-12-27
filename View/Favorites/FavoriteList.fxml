@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="vboxBack" minHeight="900.0" minWidth="1355.0" prefHeight="900.0" prefWidth="1355.0" xmlns="http://javafx.com/javafx/8.0.251" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FavoritesController">
+    <children>
+        <AnchorPane fx:id="listPane" maxHeight="-1.0" maxWidth="-1.0" minHeight="900.0" minWidth="1355.0" prefHeight="900.0" prefWidth="1355.0" VBox.vgrow="ALWAYS">
+            <children>
+                <ListView fx:id="listView" minHeight="900.0" minWidth="1355.0" prefHeight="900.0" prefWidth="1355.0" />
+            <Label fx:id="validOrInvalid" alignment="CENTER" contentDisplay="CENTER" layoutX="495.0" layoutY="395.0">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

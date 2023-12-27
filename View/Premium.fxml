@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="350.0" prefWidth="380.0" style="-fx-background-color: none;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PremiumController">
+   <children>
+      <Label layoutX="191.0" layoutY="224.0" text="/monthly" textFill="#8c8c8d">
+         <font>
+            <Font name="Myanmar Text Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBuyNow" alignment="CENTER" contentDisplay="CENTER" layoutX="44.0" layoutY="278.0" mnemonicParsing="false" onAction="#buyNowButtonActions" prefHeight="37.0" prefWidth="296.0" style="-fx-background-color: #2D75E8;" text=" Buy Now" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Label layoutX="138.0" layoutY="206.0" prefHeight="65.0" prefWidth="47.0" text="\$9" textFill="#2e77e5">
+         <font>
+            <Font name="Myanmar Text" size="28.0" />
+         </font></Label>
+      <Label layoutX="53.0" prefHeight="119.0" prefWidth="286.0" text="Pandemic World Tracker Premium" textAlignment="CENTER" textFill="#2e77e5" wrapText="true">
+         <font>
+            <Font name="Candara Bold" size="24.0" />
+         </font></Label>
+      <Label layoutX="171.0" layoutY="206.0" text="99" textFill="#3077e3">
+         <font>
+            <Font name="Myanmar Text" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="48.0" layoutY="102.0" prefHeight="58.0" prefWidth="296.0" text="➜ Enable feature to receive notifications daily, weekly, or monthly regarding covid-19 in different countries" textAlignment="CENTER" textFill="#3279e3" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="170.0" text="WARNING: This feature is still in process. &#10;             There will be no refunds" textFill="RED" />
+   </children>
+</AnchorPane>

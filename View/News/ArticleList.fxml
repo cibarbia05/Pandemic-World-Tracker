@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="listWrapper" minHeight="1000.0" minWidth="630.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ArticleListController">
+    <ListView id="newsListView" fx:id="articlesListView" layoutY="37.0" minHeight="400.0" minWidth="600" onMouseClicked="#listClickHandler" prefHeight="885.0" prefWidth="630.0" AnchorPane.bottomAnchor="78.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="37.0" />
+    <ProgressBar fx:id="progressBar" layoutX="7.0" layoutY="7.0" prefHeight="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+    <Button id="newsButton" fx:id="loadMoreButton" layoutX="267.0" layoutY="947.0" onMouseClicked="#loadMoreClickHandler" stylesheets="@NewsStylesheet.css" text="Load more" AnchorPane.bottomAnchor="28.0" />
+   <DatePicker fx:id="fromDatePicker" layoutX="118.0" promptText="From" />
+   <DatePicker fx:id="toDatePicker" layoutX="332.0" promptText="To" />
+   <Button id="newsButton" fx:id="btnSearch" layoutX="548.0" layoutY="-13.0" mnemonicParsing="false" onAction="#handleSearch" stylesheets="@NewsStylesheet.css" text="Search" />
+</AnchorPane>

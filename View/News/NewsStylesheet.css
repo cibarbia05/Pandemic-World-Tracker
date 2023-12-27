@@ -1,0 +1,46 @@
+
+.button{
+    -fx-background-color: #8f8b8b;
+    -fx-text-fill: black;
+}
+.button:hover{
+    -fx-background-color: #868686;
+    -fx-text-fill: black;
+}
+.root {
+    -fx-font-family: "Roboto";
+    -fx-font-smoothing-type: gray;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: #3992bf;
+}
+
+.list-cell { -fx-text-fill: black; /* 5 */ }
+.list-cell:odd { -fx-background-color: #f3f3f3; /* 1 */ }
+.list-cell:even { -fx-background-color: #ecebeb; /* for information */ }
+
+.title-label {
+    -fx-font-size: 16.0px;
+    -fx-font-weight: BOLD;
+    -fx-text-fill: rgba(0.0, 0.0, 0.0, 0.87);
+}
+
+.published-at-label {
+    -fx-font-size: 14.0px;
+
+}
+
+.source-label {
+    -fx-font-size: 14.0px;
+}
+
+.fv-title-label {
+    -fx-font-size: 18.0px;
+    -fx-font-weight: BOLD;
+    -fx-text-fill: rgba(0.0, 0.0, 0.0, 0.87);
+}
+
+.fv-description {
+    -fx-font-size: 16.0px;
+}

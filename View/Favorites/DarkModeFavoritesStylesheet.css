@@ -1,0 +1,22 @@
+.list-cell:filled:selected {
+    -fx-background-color: #335564;
+}
+
+.list-view{
+    -fx-background-color: #1b222d;
+}
+.list-cell {
+    -fx-text-fill: #1f252f;
+}
+.list-cell:odd {
+    -fx-background-color: #262d37;
+    -fx-text-fill: white;
+}
+.list-cell:even {
+    -fx-background-color: #292d3c;
+    -fx-text-fill: #eaeaea
+}
+.label{
+    -fx-text-fill: #eaeaea;
+}
+
